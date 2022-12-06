@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import Portfolio from './components/pages/Portfolio/index';
 import Contact from './components/pages/Contact/index';
 import About from './components/pages/About/index';
+import Footer from './components/pages/Footer'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* // TODO: Add a comment explaining what is happening on the following line */}
       {renderPage()}
+      <Footer />
     </body>
     // <div className="App">
     //   <Nav
