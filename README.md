@@ -26,7 +26,7 @@
 
   ## Description
 
-  This application is a blog focus on tech created using node.js, express.js, mySQL, sequelize, express handlebars, express session, dotenv, bcrypt, connect-session-sequelize among other tools; to provide the user with an application that allows the user to signup, login and logout of their account, once they are logged in they can create and edit posts, and they can create comments on posts. Eveyrhing was done following the MVC programming paradigm.
+  This application is a Portfolio using React that displays information about myself, my projects and contact information.
 
    <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -44,6 +44,10 @@
 ```
 ```sh 
     Use favorite browser to check localhost:3001/
+```
+ As a user:
+ ```sh 
+    https://joseobm92.github.io/React-Portfolio/
 ```
 
 
