@@ -2,7 +2,6 @@ import React from 'react';
 
 import '../Portfolio/portfolio.css'
 import travelBuddy from '../../images/travelbuddy.png'
-import cryptofolio from '../../images/cryptofolio.png'
 import techblog from '../../images/techblog.png'
 import crypto from '../../images/crypto.png'
 

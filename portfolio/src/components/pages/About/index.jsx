@@ -7,23 +7,22 @@ export default function About() {
   return (
     <div className='container'>
       <div className='row lh-base'>
-        <div className='text-center mb-4'>
+        <div className='mb-4'>
           <h1 className=''>About Me</h1>
-
         </div>
-        <div className='col-md-4'>
+        <div className='col-md-4 mt-2'>
           <div className='container text-center mb-4'>
 
             <img src={profile} class="img-fluid" alt="profile" id='profile'></img>
 
           </div>
         </div>
-        <div className='col-md-4 border-end border-start'>
+        <div className='col-md-4 border-end border-start mt-2' id='border'>
           <h2 className='mb-4'>Where I come from...</h2>
           <p>
             My name is Jose Barreto, I'm originally from Venezuela and have been living in Florida since 2010. I
             graduated in 2015 with an International Business major with a minor on Business Administration from
-            the Florida International University.<br></br>
+            Florida International University.<br></br>
             My work experience since then has been a combination of
             working 4 years in a direct marketing company, first as a sales person and quickly grew to become an
             office manager where I got the chance to hire, train, and develop people on sales and leadership;
@@ -33,7 +32,7 @@ export default function About() {
             experience for the last 2-3 years.
           </p>
         </div>
-        <div className='col-md-4'>
+        <div className='col-md-4 mt-2'>
           <h2 className='mb-4'>This is my Coding Journey</h2>
           <p>
             My life as a Full Stack Web Programmer is just getting started while going through a Full Stack
@@ -49,7 +48,7 @@ export default function About() {
         <div className='col-md-12 text-center' id='icons'>
           <a href="https://github.com/joseobm92" target="_blank" rel='noreferrer'><i className="bi bi-github text-dark mx-4" ></i></a>
           <a href="https://www.linkedin.com/in/jose-barreto-875087ab/" target="_blank" rel='noreferrer'><i className="bi bi-linkedin text-dark mx-4"></i></a>
-          <a href="https://github.com/joseobm92" target="_blank" rel='noreferrer'><i className="bi bi-stack-overflow text-dark mx-4"></i></a>
+          <a href="https://stackoverflow.com/users/20707711/jose-barreto" target="_blank" rel='noreferrer'><i className="bi bi-stack-overflow text-dark mx-4"></i></a>
         </div>
       </div>
 

@@ -1,13 +1,15 @@
 import React from 'react';
 
+import '../Resume/resume.css'
+
 export default function Contact() {
     return (
         <div className='container'>
             <div className='row'>
                 <h1> Resume </h1>
-                <div className='col-md-5 mx-3 my-3'>
+                <div className='col-md-5 mx-3 my-3 front shadow'>
 
-                    <h2>Front-end Proficiencies</h2>
+                    <h2 className='px-2 py-2'>Front-end Proficiencies</h2>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">HTML</li>
                         <li class="list-group-item">CSS</li>
@@ -19,9 +21,9 @@ export default function Contact() {
                         <li class="list-group-item">Bulma</li>
                     </ul>
                 </div>
-                <div className='col-md-5 mx-3 my-3'>
+                <div className='col-md-5 mx-3 my-3 back shadow'>
 
-                    <h2>Back-end Proficiencies</h2>
+                    <h2 className='px-2 py-2'>Back-end Proficiencies</h2>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">APIs</li>
                         <li class="list-group-item">Node</li>
