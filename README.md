@@ -59,7 +59,7 @@
 
   ## Demo
 
-![alt text](./portfolio/src/components/images/reactportfolio.png)
+![alt text](/src/components/images/reactportfolio.png)
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
