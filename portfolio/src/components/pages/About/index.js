@@ -1,5 +1,8 @@
 import React from 'react';
 
+import profile from '../../images/profile.png'
+import '../About/about.css'
+
 export default function About() {
   return (
     <div className='container'>
@@ -9,9 +12,9 @@ export default function About() {
 
         </div>
         <div className='col-md-4'>
-          <div className='container text-center mb-4  '>
+          <div className='container text-center mb-4'>
 
-            <img src="https://picsum.photos/250/250" class="img-fluid rounded-circle" alt="profile"></img>
+            <img src={profile} class="img-fluid" alt="profile" id='profile'></img>
 
           </div>
         </div>
@@ -43,7 +46,7 @@ export default function About() {
         </div>
       </div>
       <div className='row mt-4 mb-4'>
-        <div className='col-md-12 text-center'>
+        <div className='col-md-12 text-center' id='icons'>
           <a href="https://github.com/joseobm92" target="_blank" rel='noreferrer'><i className="bi bi-github text-dark mx-4" ></i></a>
           <a href="https://www.linkedin.com/in/jose-barreto-875087ab/" target="_blank" rel='noreferrer'><i className="bi bi-linkedin text-dark mx-4"></i></a>
           <a href="https://github.com/joseobm92" target="_blank" rel='noreferrer'><i className="bi bi-stack-overflow text-dark mx-4"></i></a>

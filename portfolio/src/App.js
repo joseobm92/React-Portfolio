@@ -7,6 +7,7 @@ import Portfolio from './components/pages/Portfolio/index';
 import Contact from './components/pages/Contact/index';
 import About from './components/pages/About/index';
 import Footer from './components/pages/Footer'
+import Resume from './components/pages/Resume'
 
 function App() {
 
@@ -21,6 +22,9 @@ function App() {
     }
     if (currentPage === 'Contact') {
       return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     return <About />;
   };

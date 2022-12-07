@@ -1,0 +1,8 @@
+.card-img {
+    opacity: 0.4;
+    max-height: 250px;
+}
+
+.card-img-overlay a {
+    font-size: 30px;
+}
