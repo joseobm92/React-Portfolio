@@ -35,11 +35,15 @@ export default function About() {
         <div className='col-md-4 mt-2'>
           <h2 className='mb-4'>This is my Coding Journey</h2>
           <p>
-            My life as a Full Stack Web Programmer is just getting started while going through a Full Stack
-            Developer Bootcamp at UCF!<br></br>
-            My passion to work on computers and understand their language has always
-            been there, This is a huge career change for me, with the goal of being able to work remotely and
-            travel the world while creativily building web apps.
+            I am a Full Stack Web Developer with a background in Business and Sales.  I recently earned a certificate in Full Stack Development from the University of Central Florida, where I developed skills in JavaScript, CSS, React.js, and responsive web design.
+            <br></br>
+            An innovative problem solver passionate about developing apps, with a focus on mobile-first design and development. My degree in Business Administration has prepared me to approach problems with creativity and teamwork.
+            <br></br>
+            With each project, I aim to understand how to best engage users for an impactful user experience. I applied aspects of UX and agile development in a recent project where I worked in a team of 4 to develop a single-page MERN app that helps local business owners track their sales, inventory, and attendance at specialty events.
+            <br></br>
+            When Im not designing or developing, I enjoy soccer, outdoors, trying out a new things, or reading up on the latest trends in web and mobile design.
+            <br></br>
+            Im excited to leverage my skills in the future as part of a fast-paced, quality-driven team. Reach out to me to chat about our next project here.
           </p>
 
         </div>
