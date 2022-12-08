@@ -67,6 +67,7 @@ export default function Portfolio() {
                   <h5 className="card-title">React Portfolio</h5>
                   <p className="card-text">App is a portfolio created using React</p>
                   <p className="card-text"><small> Node, React, Bootstrap</small></p>
+                  <a href="https://github.com/joseobm92/React-Portfolio" target="_blank" rel='noreferrer'> <i className="bi bi-github text-white" ></i></a>
                 </div>
               </div>
             </a>
