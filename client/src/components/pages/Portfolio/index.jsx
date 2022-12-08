@@ -4,6 +4,7 @@ import '../Portfolio/portfolio.css'
 import travelBuddy from '../../images/travelbuddy.png'
 import techblog from '../../images/techblog.png'
 import crypto from '../../images/crypto.png'
+import portfolio from '../../images/reactportfolio.png'
 
 export default function Portfolio() {
   return (
@@ -59,13 +60,13 @@ export default function Portfolio() {
         </div>
         <div className='row'>
         <div className='col-md-5 mx-2 my-2'>
-            <a href='https://joseobm92.github.io/Travel-Buddy/' target='_blank' rel="noopener noreferrer">
+            <a href='https://joseobm92.github.io/React-Portfolio/' target='_blank' rel="noopener noreferrer">
               <div className="card text-bg-dark">
-                <img src='https://picsum.photos/200' className="card-img" alt="..."></img>
+                <img src={portfolio} className="card-img" alt="..."></img>
                 <div className="card-img-overlay">
-                  <h5 className="card-title">Another project</h5>
-                  <p className="card-text"></p>
-                  <p className="card-text"><small></small></p>
+                  <h5 className="card-title">React Portfolio</h5>
+                  <p className="card-text">App is a portfolio created using React</p>
+                  <p className="card-text"><small> Node, React, Bootstrap</small></p>
                 </div>
               </div>
             </a>
