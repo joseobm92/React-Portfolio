@@ -8,8 +8,8 @@
   * [Description](#description)
   * [Usage](#usage)
   * [Contribution](#contribution)
-  * [Instructions](#instructions)
   * [License](#license)
+  * [Questions](#questions)
       
   ## Installation
 
