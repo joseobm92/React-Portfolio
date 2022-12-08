@@ -13,7 +13,7 @@ const Nav = ({ currentPage, handlePageChange }) => {
                     className="navbar-toggler-icon"></span></button>
 
                 <div className="collapse navbar-collapse" id="navmenu">
-                    <ul className="navbar-nav ms-auto ml-3">
+                    <ul className="navbar-nav ms-auto ml-3 ">
                         <li className="nav-item">
                             <a href="#about" className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} onClick={() => handlePageChange('About')}> About <i className="bi bi-house"></i> </a>
                         </li>
