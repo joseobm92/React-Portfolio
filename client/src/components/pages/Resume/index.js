@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../Resume/resume.css'
 
-import resume from '../../directory/resume.pdf'
+import resume from '../../directory/resume2022.pdf'
 
 export default function Contact() {
     return (
