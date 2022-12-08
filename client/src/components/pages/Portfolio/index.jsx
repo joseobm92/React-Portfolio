@@ -16,7 +16,7 @@ export default function Portfolio() {
         <div className='col-md-10 mx-2 my-2'>
           <a href='https://radiant-lowlands-48817.herokuapp.com/' target='_blank' rel="noopener noreferrer">
             <div className="card text-bg-dark">
-              <img src={crypto} className="card-img" alt="..."></img>
+              <img src={crypto} className="card-img" alt="cryptofolio"></img>
               <div className="card-img-overlay">
                 <h5 className="card-title">Cryptofolio</h5>
                 <p className="card-text">App allows the user to learn and track their favorite currencies</p>
@@ -31,7 +31,7 @@ export default function Portfolio() {
           <div className='col-md-5 mx-2 my-2'>
             <a href='https://joseobm92.github.io/Travel-Buddy/' target='_blank' rel="noopener noreferrer">
               <div className="card text-bg-dark">
-                <img src={travelBuddy} className="card-img" alt="..."></img>
+                <img src={travelBuddy} className="card-img" alt="travelBuddy"></img>
                 <div className="card-img-overlay">
                   <h5 className="card-title">Travel Buddy</h5>
                   <p className="card-text">App allows the user to search live info from flights and live weather data</p>
@@ -46,7 +46,7 @@ export default function Portfolio() {
           <div className='col-md-5 mx-2 my-2'>
             <a href='https://boiling-shore-72029.herokuapp.com/' target='_blank' rel="noopener noreferrer">
               <div className="card text-bg-dark">
-                <img src={techblog} className="card-img" alt="..."></img>
+                <img src={techblog} className="card-img" alt="techBlog"></img>
                 <div className="card-img-overlay">
                   <h5 className="card-title">Tech Blog</h5>
                   <p className="card-text">App is tech related Blog</p>
@@ -62,7 +62,7 @@ export default function Portfolio() {
         <div className='col-md-5 mx-2 my-2'>
             <a href='https://joseobm92.github.io/React-Portfolio/' target='_blank' rel="noopener noreferrer">
               <div className="card text-bg-dark">
-                <img src={portfolio} className="card-img" alt="..."></img>
+                <img src={portfolio} className="card-img" alt="portfolio"></img>
                 <div className="card-img-overlay">
                   <h5 className="card-title">React Portfolio</h5>
                   <p className="card-text">App is a portfolio created using React</p>
