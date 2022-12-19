@@ -5,6 +5,7 @@ import travelBuddy from '../../images/travelbuddy.png'
 import techblog from '../../images/techblog.png'
 import crypto from '../../images/crypto.png'
 import portfolio from '../../images/reactportfolio.png'
+import oyster from '../../images/oyster.png'
 
 export default function Portfolio() {
   return (
@@ -74,13 +75,15 @@ export default function Portfolio() {
           </div>
 
           <div className='col-md-5 mx-2 my-2'>
-            <a href='https://joseobm92.github.io/Travel-Buddy/' target='_blank' rel="noopener noreferrer">
+            <a href='https://immense-refuge-82677.herokuapp.com/' target='_blank' rel="noopener noreferrer">
               <div className="card text-bg-dark">
-                <img src='https://picsum.photos/200' className="card-img" alt="..."></img>
+                <img src={oyster} className="card-img" alt="..."></img>
                 <div className="card-img-overlay">
-                  <h5 className="card-title">Another project</h5>
-                  <p className="card-text"></p>
-                  <p className="card-text"><small></small></p>
+                  <h5 className="card-title">Oyster</h5>
+                  <p className="card-text"> App is an NFT platform to socialize, share and learn about NFT projects</p>
+                  <p className="card-text"><small> MERN STACK, Bootstrap, Moralis, Ethers, Wagmi, Axios, GraphQL, Particles, Lottie</small></p>
+                  <a href="https://github.com/joseobm92/Oyster" target="_blank" rel='noreferrer'> <i className="bi bi-github text-white" ></i></a>
+
                 </div>
               </div>
             </a>
