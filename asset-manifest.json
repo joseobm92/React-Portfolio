@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.d9663741.css",
-    "main.js": "/React-Portfolio/static/js/main.90c3e7cf.js",
+    "main.js": "/React-Portfolio/static/js/main.f651a216.js",
     "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/travelbuddy.png": "/React-Portfolio/static/media/travelbuddy.6994fbd4c07f6ccd3cda.png",
     "static/media/reactportfolio.png": "/React-Portfolio/static/media/reactportfolio.89b26a0f7990d14b637f.png",
@@ -11,14 +11,14 @@
     "static/media/bootstrap-icons.woff?": "/React-Portfolio/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/bootstrap-icons.woff2?": "/React-Portfolio/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "static/media/techblog.png": "/React-Portfolio/static/media/techblog.2c13087a2f8a1d5a6331.png",
-    "static/media/resume2022.pdf": "/React-Portfolio/static/media/resume2022.45737cf5f2296576b597.pdf",
+    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.674442c1d11893421cca.pdf",
     "index.html": "/React-Portfolio/index.html",
     "main.d9663741.css.map": "/React-Portfolio/static/css/main.d9663741.css.map",
-    "main.90c3e7cf.js.map": "/React-Portfolio/static/js/main.90c3e7cf.js.map",
+    "main.f651a216.js.map": "/React-Portfolio/static/js/main.f651a216.js.map",
     "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9663741.css",
-    "static/js/main.90c3e7cf.js"
+    "static/js/main.f651a216.js"
   ]
 }
