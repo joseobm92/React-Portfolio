@@ -4,21 +4,21 @@ import '../Contact/contact.css'
 
 export default function Contact() {
   return (
-    <div className='container'>
-      <div className='row gap-4'>
+    <div className='container m-5'>
+      <div className='row justify-content-center'>
+        <div className='col-md-4 '>
           <h1>Contact me</h1>
-        <div className='col-md-5'>
 
           <div className='row'>
-            <div className='col-md-3 icon'>
+            <div className='col-sm icon'>
               <a href="https://github.com/joseobm92" target="_blank" rel='noreferrer'><i className="bi bi-github text-dark" ></i></a>
             </div>
-            <div className='col-md-3 icon'>
+            <div className='col-sm icon'>
               <a href="mailto:joseobm92@gmail.com" target="_blank" rel='noreferrer'> <i className="bi bi-envelope-at text-dark" ></i></a>
             </div>
           </div>
         </div>
-        <div className='col-md-5'>
+        {/* <div className='col-md-5'>
 
           <div class="mb-3">
             <label for="name" class="form-label">Name</label>
@@ -33,7 +33,7 @@ export default function Contact() {
             <textarea class="form-control" id="messageInput" rows="8"></textarea>
           </div>
           <button type="submit" class="btn btn-primary mb-4">Submit</button>
-        </div>
+        </div> */}
 
       </div>
     </div>

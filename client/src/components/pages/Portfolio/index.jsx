@@ -14,7 +14,25 @@ export default function Portfolio() {
         <div>
           <h1>Portfolio</h1>
         </div>
-        <div className='col-md-10 mx-2 my-2'>
+        <div className='col-lg-10 mx-2 my-2'>
+
+        <a href='https://immense-refuge-82677.herokuapp.com/' target='_blank' rel="noopener noreferrer">
+              <div className="card text-bg-dark">
+                <img src={oyster} className="card-img" alt="..."></img>
+                <div className="card-img-overlay">
+                  <h5 className="card-title">Oyster</h5>
+                  <p className="card-text"> App is an NFT platform to socialize, share and learn about NFT projects</p>
+                  <p className="card-text"><small> MERN STACK, Bootstrap, Moralis, Ethers, Wagmi, Axios, GraphQL, Particles, Lottie</small></p>
+                  <a href="https://github.com/joseobm92/Oyster" target="_blank" rel='noreferrer'> <i className="bi bi-github text-white" ></i></a>
+
+                </div>
+              </div>
+            </a>
+
+          
+        </div>
+        <div className='row'>
+          <div className='col-lg-5 mx-2 my-2'>
           <a href='https://radiant-lowlands-48817.herokuapp.com/' target='_blank' rel="noopener noreferrer">
             <div className="card text-bg-dark">
               <img src={crypto} className="card-img" alt="cryptofolio"></img>
@@ -27,10 +45,11 @@ export default function Portfolio() {
               </div>
             </div>
           </a>
-        </div>
-        <div className='row'>
-          <div className='col-md-5 mx-2 my-2'>
-            <a href='https://joseobm92.github.io/Travel-Buddy/' target='_blank' rel="noopener noreferrer">
+            
+          </div>
+
+          <div className='col-lg-5 mx-2 my-2'>
+          <a href='https://joseobm92.github.io/Travel-Buddy/' target='_blank' rel="noopener noreferrer">
               <div className="card text-bg-dark">
                 <img src={travelBuddy} className="card-img" alt="travelBuddy"></img>
                 <div className="card-img-overlay">
@@ -42,25 +61,13 @@ export default function Portfolio() {
                 </div>
               </div>
             </a>
-          </div>
 
-          <div className='col-md-5 mx-2 my-2'>
-            <a href='https://boiling-shore-72029.herokuapp.com/' target='_blank' rel="noopener noreferrer">
-              <div className="card text-bg-dark">
-                <img src={techblog} className="card-img" alt="techBlog"></img>
-                <div className="card-img-overlay">
-                  <h5 className="card-title">Tech Blog</h5>
-                  <p className="card-text">App is tech related Blog</p>
-                  <p className="card-text"><small>Express, Node, Handlebars, Sequelize, Express session, dotenv, bcrypt</small></p>
-                  <a href="https://github.com/joseobm92/Tech-blog-MVC" target="_blank" rel='noreferrer'> <i className="bi bi-github text-white" ></i></a>
-                </div>
-              </div>
-            </a>
+            
           </div>
 
         </div>
         <div className='row'>
-        <div className='col-md-5 mx-2 my-2'>
+        <div className='col-lg-5 mx-2 my-2'>
             <a href='https://joseobm92.github.io/React-Portfolio/' target='_blank' rel="noopener noreferrer">
               <div className="card text-bg-dark">
                 <img src={portfolio} className="card-img" alt="portfolio"></img>
@@ -74,16 +81,15 @@ export default function Portfolio() {
             </a>
           </div>
 
-          <div className='col-md-5 mx-2 my-2'>
-            <a href='https://immense-refuge-82677.herokuapp.com/' target='_blank' rel="noopener noreferrer">
+          <div className='col-lg-5 mx-2 my-2'>
+          <a href='https://boiling-shore-72029.herokuapp.com/' target='_blank' rel="noopener noreferrer">
               <div className="card text-bg-dark">
-                <img src={oyster} className="card-img" alt="..."></img>
+                <img src={techblog} className="card-img" alt="techBlog"></img>
                 <div className="card-img-overlay">
-                  <h5 className="card-title">Oyster</h5>
-                  <p className="card-text"> App is an NFT platform to socialize, share and learn about NFT projects</p>
-                  <p className="card-text"><small> MERN STACK, Bootstrap, Moralis, Ethers, Wagmi, Axios, GraphQL, Particles, Lottie</small></p>
-                  <a href="https://github.com/joseobm92/Oyster" target="_blank" rel='noreferrer'> <i className="bi bi-github text-white" ></i></a>
-
+                  <h5 className="card-title">Tech Blog</h5>
+                  <p className="card-text">App is tech related Blog</p>
+                  <p className="card-text"><small>Express, Node, Handlebars, Sequelize, Express session, dotenv, bcrypt</small></p>
+                  <a href="https://github.com/joseobm92/Tech-blog-MVC" target="_blank" rel='noreferrer'> <i className="bi bi-github text-white" ></i></a>
                 </div>
               </div>
             </a>

@@ -2,9 +2,11 @@ import React from 'react';
 
 import profile from '../../images/profile.png'
 import '../About/about.css'
+import Footer from '../Footer';
 
 export default function About() {
   return (
+    <>
     <div className='container'>
       <div className='row lh-base'>
         <div className='mb-4'>
@@ -57,5 +59,7 @@ export default function About() {
       </div>
 
     </div>
+    <Footer/>
+    </>
   );
 }
